@@ -377,6 +377,7 @@ const App = () => {
         <Grid item xs={12} md={8} ref={searchRef}>
           <Box sx={{ position: 'relative' }}>
             <TextField
+              style={{ width: "25vw" }}
               fullWidth
               placeholder="Search accounts by name, PAN, GST, contact"
               value={searchTerm}
