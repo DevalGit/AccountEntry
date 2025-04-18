@@ -529,6 +529,7 @@ const App = () => {
           >
             Add New Account
           </Button>
+
         </Grid>
       </Grid>
 
@@ -820,8 +821,7 @@ const App = () => {
                     <TableBody>
                       <TableRow>
                         <TableCell sx={{ fontWeight: 'bold' }}>Invoice Amount</TableCell>
-                        <TableCell align="right">₹ {typeof (totals.finalAmount) === 'number' ? totals.finalAmount.toFixed(2) : '0.00'
-                        }</TableCell>
+                        <TableCell align="right">₹ {invoiceAmount}</TableCell>
                       </TableRow>
                       <TableRow>
                         <TableCell sx={{ fontWeight: 'bold' }}>
